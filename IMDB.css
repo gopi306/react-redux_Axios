@@ -1,0 +1,21 @@
+.img-list{
+  display: flex;
+  flex-wrap: wrap;            /* space between each image item */
+  /* align-items: center;   */
+  gap: 16px;
+}
+.image-list img {
+  width: 100%;       /* or a max width like 300px */
+  height: auto;
+  object-fit: cover; /* ensures the image fits nicely */
+}
+
+.image-container .item {
+  flex: 0 0 200px;           /* each item is 200px wide (or any width you choose) */
+}
+
+.image-container .item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

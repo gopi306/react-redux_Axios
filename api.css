@@ -1,0 +1,12 @@
+table,tr,th,td{
+  background-color: aqua;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+td{
+  font-size: 15px;
+}
